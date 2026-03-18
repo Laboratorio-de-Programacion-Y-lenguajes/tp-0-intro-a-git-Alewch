@@ -37,7 +37,7 @@ def glosario_inicial():
 # 3. Llámala dentro del bloque 'if __name__ == "__main__":'
 
 
-def agregar_definicion_alumno():
+def definicion_termino():
     """
     EJEMPLO: El alumno debe renombrar esta función y completar su término.
     """
