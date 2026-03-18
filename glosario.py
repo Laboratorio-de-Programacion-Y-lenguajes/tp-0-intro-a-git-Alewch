@@ -41,14 +41,15 @@ def agregar_definicion_alumno():
     """
     EJEMPLO: El alumno debe renombrar esta función y completar su término.
     """
-    termino = "ORM"  # Reemplazar con el término asignado o elegido
-    definicion = "Object-Relational Mapping. Técnica para convertir datos entre sistemas incompatibles usando OOP."
+    termino = "ORM: "  # Reemplazar con el término asignado o elegido
+    definicion = "Un ORM (Object-Relational Mapping) es una capa de abstracción de software que permite la persistencia de datos mediante la creación de un sistema de correspondencia entre dos modelos de datos incompatibles: el Modelo Orientado a Objetos (utilizado en la lógica de aplicación) y el Modelo Relacional (utilizado en los RDBMS - Sistemas de Gestión de Bases de Datos Relacionales)."
     print(f"[NUEVO] {termino}: {definicion}")
 
 
 if __name__ == "__main__":
     mostrar_bienvenida()
     glosario_inicial()
+    agregar_definicion_alumno()
 
     # El alumno debe agregar la llamada a su función aquí:
     # agregar_definicion_alumno()
